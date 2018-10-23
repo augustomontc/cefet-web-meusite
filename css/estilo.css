@@ -1,0 +1,100 @@
+.botao {
+  line-height: 42px;
+  padding-left: 30px;
+  background: #fff;
+  border-radius: 0;
+}
+
+.botao:focus {
+  outline: none;
+}
+
+.botao span {
+  color: #fff;
+  position: absolute;
+}
+    
+.botao:hover {
+  background: transparent;
+  color: #8a90ff;
+  border: 1px solid #fff;
+}
+
+.banner {
+  background: url(../img/banner-bg.jpg) center;
+  background-size: cover;
+}
+
+.banner .botao {
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.header-container {
+  width: 100%;
+  padding-top: 20px;
+  padding-right: 100px;
+  padding-left: 100px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.header-div {
+  background-color: rgba(255, 255, 255, 0.8);
+  display: flex;
+  flex-wrap: wrap;
+  margin-right: -15px;
+  margin-left: -15px;
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+}
+
+.projeto {
+  text-align: center;
+  border-radius: 10px;
+  background-color: white;
+  box-shadow: 0px 10px 30px 0px rgba(212, 150, 255, 0.2);
+}
+
+.projeto .thumb {
+  padding: 40px;
+  border-bottom: 1px solid #eee;
+}
+
+.projeto .details {
+  padding: 20px;
+  background-color: #f9f9ff;
+}
+
+.projeto .details h4 {
+  margin-bottom: 20px;
+}
+
+.projeto .details .primary-btn {
+  margin-top: 10px;
+  border-radius: 0;
+  background: #fff;
+  color: #222 !important;
+  font-weight: 600;
+}
+
+.projeto:hover {
+  cursor: pointer;
+}
+
+.projeto:hover .details .primary-btn {
+  color: #fff !important;
+}
+
+@media (max-width: 960px) {
+  .projeto {
+    margin-bottom: 30px;
+  }
+}
+
+#map {
+  width: 100%;
+  height: 300px;
+  background-color: grey;
+}
